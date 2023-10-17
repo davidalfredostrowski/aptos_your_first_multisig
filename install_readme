@@ -1,0 +1,20 @@
+
+
+
+ubuntu@ip-172-31-35-62:~/aptos-core/ecosystem/python/sdk$ poetry run python -m examples.multisig
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/ubuntu/aptos-core/ecosystem/python/sdk/examples/multisig.py", line 8, in <module>
+    from aptos_sdk.account import Account, RotationProofChallenge
+  File "/home/ubuntu/aptos-core/ecosystem/python/sdk/aptos_sdk/account.py", line 10, in <module>
+    from . import asymmetric_crypto, ed25519
+  File "/home/ubuntu/aptos-core/ecosystem/python/sdk/aptos_sdk/asymmetric_crypto.py", line 6, in <module>
+    from typing_extensions import Protocol
+ModuleNotFoundError: No module named 'typing_extensions'
+ubuntu@ip-172-31-35-62:~/aptos-core/ecosystem/python/sdk$ pip install typing_extensions
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: typing_extensions in /home/ubuntu/.local/lib/python3.10/site-packages (4.8.0)
+ubuntu@ip-172-31-35-62:~/aptos-core/ecosystem/python/sdk$
