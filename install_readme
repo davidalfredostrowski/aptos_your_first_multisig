@@ -18,3 +18,15 @@ ubuntu@ip-172-31-35-62:~/aptos-core/ecosystem/python/sdk$ pip install typing_ext
 Defaulting to user installation because normal site-packages is not writeable
 Requirement already satisfied: typing_extensions in /home/ubuntu/.local/lib/python3.10/site-packages (4.8.0)
 ubuntu@ip-172-31-35-62:~/aptos-core/ecosystem/python/sdk$
+
+
+
+
+
+ubuntu@ip-172-31-35-62:~/aptos-core/ecosystem/python/sdk$ pip install typing_extensions
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: typing_extensions in /home/ubuntu/.local/lib/python3.10/site-packages (4.8.0)
+ubuntu@ip-172-31-35-62:~/aptos-core/ecosystem/python/sdk$ pip3 install typing_extensions
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: typing_extensions in /home/ubuntu/.local/lib/python3.10/site-packages (4.8.0)
+
